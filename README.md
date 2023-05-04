@@ -2,10 +2,17 @@
 Sentiment analysis using Traditional Machine Learning Algorithms and Deep Learning Algorithms 
 
 Real-Time Sentiment Analysis using AWS
+
 Image Bhattarai, S M Rafiuddin
+
 Department of Computer Science, Oklahoma State University
+
 image.bhattarai@okstate.edu, srafiud@okstate.edu
-Abstract
+
+
+**Abstract**
+
+
 With the unprecedented growth of social media, the rise of public opinions and emotions has
 increased exponentially. These feelings are pivotal for any organization to understand a person’s
 satisfaction and inclination towards a cause – be it politics, education or even healthcare.
@@ -17,25 +24,41 @@ Sentiment Analysis to study people’s emotion and attitude towards a topic. It 
 SageMaker to prepare, build, train, and deploy the application. After training the model, and testing
 it with various inputs, we would expect that our application will successfully classify sentiment
 with significant accuracy.
+
+
 Index Terms – Sentiment Analysis, Amazon SageMaker, Natural Language Processing
-Objectives
+
+
+**Objectives**
+
+
 This project has been proposed to achieve the following objectives-
-• Develop a scalable text classification model that utilizes Amazon SageMaker to classify
-the public opinions as positive, negative, or neutral.
+• Develop a scalable text classification model that utilizes Amazon SageMaker to classify the public opinions as positive, negative, or neutral.
+
 • Improve data preprocessing and feature extraction by removing any stop words and nonalphabets so that we get an optimized input data.
-• Utilize Amazon Web Services (AWS) to deploy the model to the cloud, thereby removing
-the need for it to have a locally deployed machine.
-• Optimizing performance by tuning the hyperparameters to get the best accuracy and
-performance.
-Proposed Dataset
-We will use two datasets for our taska. IMDb Movie Reviews:
+
+• Utilize Amazon Web Services (AWS) to deploy the model to the cloud, thereby removing the need for it to have a locally deployed machine.
+
+• Optimizing performance by tuning the hyperparameters to get the best accuracy and performance.
+
+
+**Proposed Dataset**
+
+We will use two datasets for our task- 
+
+
+**a. IMDb Movie Reviews:**
+
 The IMDB Reviews dataset contains a total of 50,000 movie reviews, with 25,000 reviews labeled
 as positive and 25,000 reviews labeled as negative. This dataset is commonly used for sentiment
 analysis tasks, where the goal is to classify a given movie review as either positive or negativebased on its content. Each review in the dataset is represented as a plain text document, and the
 dataset is split into a training set of 25,000 reviews and a test set of 25,000 reviews. The IMDB
 Reviews dataset is widely used in natural language processing research and has been used as a
 benchmark for evaluating the performance of many different text classification models.
-b. SemEval-2017 Task 4:
+
+
+**b. Twitter Samples:**
+
 The SemEval-2017 Task 4 dataset contains 10,000 tweets in English, which are labeled with one
 of three sentiment classes: positive, negative, or neutral. The tweets were selected based on their
 relevance to six different topics, including politics, climate change, and feminism. It has been
@@ -44,19 +67,35 @@ Technologies Planned to be Used
 From topics covered in the syllabusPySpark
 For Sentiment Analysis TasksThere are several traditional machine learning algorithms that can be used to classify text on the
 IMDb Reviews and SemEval-2017 Task 4 datasets. Here are a few examples:
+
 a. Naive Bayes
 b. Support Vector Machines (SVMs)
 c. Logistic Regression
 d. Decision Trees
 e. Random Forests
-And also, some Deep Learning Techniques such asa. Recurrent Neural Networks (RNNs)
+
+
+And also, some Deep Learning Techniques such as
+
+
+a. Recurrent Neural Networks (RNNs)
 b. Long Short-Term Memory (LSTM) Networks
 c. Bidirectional RNNs
 d. Transformer Networks
+
+
+
 Also, we would explore any novel idea that can be implemented along with these techniques.
+
+
+
 For Cloud Deployment and Computing:
+
 Amazon AWS
+
 Task Assignment for Each Team Members
+
+
 1. Report Writing and Presentation –a. S M Rafiuddin
 b. Image Bhattarai
 2. Literature Review –
